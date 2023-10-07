@@ -1,0 +1,87 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.flex{
+     display: flex;
+     align-items: center;
+}
+body{
+     background: rgb(116, 116, 215);
+}
+.top-heading{
+     color:white;
+     font-size: 200%;
+     position: absolute;
+     left: 9rem;
+     top:17px;
+}
+.main{
+     background: white;
+     color: white;
+     height: 200px;
+     width: 300px;
+    margin-top: 7rem;
+    margin-left: 9rem;
+}
+.inputitem{
+     flex-direction: column;
+     justify-content: space-between;
+     gap: 20px;
+     margin-left: 3rem;
+}
+input,.result,select{
+     height: 33px;
+     width: 200px;
+     padding: 10px 10px;
+     text-align: center;
+     background:rgb(197, 197, 220) ;
+     color: red;
+     border: none;
+     border-radius: 5px;
+}
+select{
+     color: black;
+
+}
+option{
+     border: none;
+}
+.btn{
+     padding: 8px 23px;
+     text-align: center;
+   margin-top: 1.5rem;
+   cursor: pointer;
+   color: red;
+   border-radius: 5px;
+   background: yellow;
+}
+
+/*  */
+.secondmain{
+     flex-direction: column;
+     background: rgb(231, 6, 85);
+     color: white;
+     padding: 10px 23px;
+}
+.container,.secondmain{
+     gap: 23px;
+     flex-wrap: wrap;
+}
+
+.circle{
+     width: 200px;
+     height: 200px;
+     border-radius: 100px;
+     background: linear-gradient(to top right,#ffffff33,#ffffffff);
+     position: absolute;
+}
+.c1{
+     top:-10px;
+     left: 0px;
+}
+.c2{
+     top: 300px;
+     right: 40px;
+}

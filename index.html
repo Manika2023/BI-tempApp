@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>temperature convertor APP</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="top-heading">
+          <h3>welcome to temperature convertor App</h3>
+     </div>
+     <div class="container flex">
+          
+     <div class="main flex">
+          <form action="" class="mainform">
+               <div class="inputitem flex">
+               <input type="number" id="inputnumber" placeholder="enter temperature">
+               <div class="result" id="result"></div>
+               <buttun class="btn" id="btn" onclick="convert()" >click me</buttun>
+          </div>
+          </form>  
+     </div>
+
+     <div class="secondmain flex" id="secondmain">
+          <div class="heading">
+               <h3>select your choices to convert in unit</h3>
+          </div>
+          <select id="unit">
+               <option value="celsius">Celsius to fahrenheit</option>
+               <option value="fahrenheit">fahrenheit to celsius</option>
+          </select>
+     </div>
+</div>
+<div class="circle c1"></div>
+<div class="circle c2"></div>
+</body>
+<script src="script.js"></script>
+</html>
